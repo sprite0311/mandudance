@@ -1,0 +1,36 @@
+doctype html
+html
+    head
+        title hello wotld
+        style
+            include ../static/style.css
+        <script src="https://kit.fontawesome.com/b175b16376.js" crossorigin="anonymous"></script>
+    body   
+        nav#navbar
+            i.fab.fa-pied-piper
+            ul
+                li #[a(href="/") home]
+                li #[a(href="/") about]            
+                li #[a(href="/") services]               
+                li #[a(href= "/") class info]
+                li #[a(href="/") contact us]
+        section#introSection
+            div Welcome to Mandu's dance academy
+            div.small Eat Sleep Dance Repeat
+        section#sponsersSection
+            h2 Our sponsers
+            div.icons
+                i.fab.fa-google
+                i.fab.fa-yahoo
+                i.fas.fa-piggy-bank
+        footer#footer
+            //- |our footer here
+            //- div.fab.fa-pied-piper
+            h3 
+            |made with
+            span 
+                i.fas.fa-heart
+            | by sarthak
+    script
+        include ../static/index.js
+        //- include "https://kit.fontawesome.com/b175b16376.js"                
